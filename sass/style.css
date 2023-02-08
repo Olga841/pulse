@@ -19,6 +19,13 @@
   align-items: flex-end;
   margin-top: 90px;
 }
+.promo__header {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 
 .header {
   display: flex;
