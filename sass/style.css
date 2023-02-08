@@ -14,4 +14,37 @@
   background: url("../img/main_bg.jpg") center center/cover no-repeat;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 250px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__official {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header__official span {
+  display: block;
+  line-height: 29px;
+  font-size: 18px;
+}
+.header__phone {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+.header__phone a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
