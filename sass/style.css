@@ -20,6 +20,7 @@
   margin-top: 90px;
 }
 .promo__header {
+  margin: 0;
   font-weight: 700;
   font-size: 42px;
   line-height: 42px;
@@ -27,11 +28,31 @@
   color: #FFFFFF;
 }
 .promo__subheader {
+  margin: 0;
+  margin-top: 17px;
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.promo__icons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
+.promo__icon {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .header {
