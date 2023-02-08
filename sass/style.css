@@ -54,6 +54,15 @@
   margin: 0 auto;
   margin-bottom: 20px;
 }
+.promo__link {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.promo__link a {
+  color: #FFFFFF;
+}
 
 .header {
   display: flex;
