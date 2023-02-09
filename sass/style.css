@@ -119,16 +119,21 @@
   font-size: 16px;
 }
 
-.benefits {
-  min-height: 473px;
-  padding: 70px 0 65px 0;
-}
-.benefits__header {
+.title {
   text-align: center;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
   color: #0D0D0D;
+}
+.title__white {
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.benefits {
+  min-height: 473px;
+  padding: 70px 0 65px 0;
 }
 .benefits__icons {
   display: flex;
@@ -154,6 +159,18 @@
 .benefits__icon a {
   color: #C70101;
   text-decoration: underline;
+}
+
+.consult {
+  min-height: 680px;
+  padding: 100px 0;
+  background: url("../img/consultation.jpg") center center/cover no-repeat;
+}
+.consult__descr {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
