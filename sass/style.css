@@ -136,7 +136,8 @@
   margin-top: 70px;
 }
 .benefits__icon {
-  width: 28%;
+  text-align: center;
+  width: 25%;
   font-size: 14px;
 }
 .benefits__icon img {
@@ -149,6 +150,10 @@
   display: block;
   font-weight: 700;
   font-size: 18px;
+}
+.benefits__icon a {
+  color: #C70101;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
