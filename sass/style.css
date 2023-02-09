@@ -119,4 +119,36 @@
   font-size: 16px;
 }
 
+.benefits {
+  min-height: 473px;
+  padding: 70px 0 65px 0;
+}
+.benefits__header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #0D0D0D;
+}
+.benefits__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.benefits__icon {
+  width: 28%;
+  font-size: 14px;
+}
+.benefits__icon img {
+  display: block;
+  margin: 0 auto;
+}
+.benefits__icon span {
+  margin: 25px 0 20px 0;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=style.css.map */
