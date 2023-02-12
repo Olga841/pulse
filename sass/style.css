@@ -404,15 +404,32 @@
   }
 }
 .carousel {
+  position: relative;
+  margin: 0 auto;
   padding: 170px 0;
 }
 .carousel img {
-  width: 750px;
-}
-
-.owl-carousel div .item {
+  display: block;
   width: 750px;
   margin: 0 auto;
+}
+
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  left: -66px;
+  border: none;
+  background: none;
+}
+.slick-prev img, .slick-next img {
+  width: 31px;
+  heigth: 50px;
+}
+
+.slick-next {
+  left: auto;
+  right: -66px;
 }
 
 /*# sourceMappingURL=style.css.map */
