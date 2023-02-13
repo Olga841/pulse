@@ -461,5 +461,10 @@
 .catalog__tabs__tab div {
   transform: skewX(25deg);
 }
+.catalog__tabs__tab_active {
+  border: none;
+  background: #C70101;
+  color: #FFFFFF;
+}
 
 /*# sourceMappingURL=style.css.map */
