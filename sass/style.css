@@ -470,5 +470,9 @@
   background: #C70101;
   color: #FFFFFF;
 }
+.catalog-item {
+  width: 303px;
+  height: 442px;
+}
 
 /*# sourceMappingURL=style.css.map */
