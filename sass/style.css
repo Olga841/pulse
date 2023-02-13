@@ -506,5 +506,11 @@
 .catalog-item hr {
   margin-top: 17px;
 }
+.catalog-item__footer {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
