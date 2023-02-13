@@ -503,5 +503,8 @@
   text-align: center;
   color: #C70101;
 }
+.catalog-item hr {
+  margin-top: 17px;
+}
 
 /*# sourceMappingURL=style.css.map */
