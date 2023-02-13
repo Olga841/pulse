@@ -475,6 +475,12 @@
   background: #C70101;
   color: #FFFFFF;
 }
+.catalog__content {
+  margin-top: 57px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
 .catalog-item {
   width: 303px;
   min-height: 442px;
@@ -515,7 +521,7 @@
   margin-top: 17px;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
 }
 .catalog-item__old-price {
   font-weight: 300;
