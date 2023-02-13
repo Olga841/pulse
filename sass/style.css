@@ -444,7 +444,7 @@
   margin-top: 70px;
   list-style-type: none;
 }
-.catalog__tabs__tab {
+.catalog__tab {
   width: 222px;
   height: 52px;
   background: rgba(0, 0, 0, 0.0001);
@@ -458,10 +458,10 @@
   transform: skewX(-25deg);
   cursor: pointer;
 }
-.catalog__tabs__tab div {
+.catalog__tab div {
   transform: skewX(25deg);
 }
-.catalog__tabs__tab_active {
+.catalog__tab_active {
   border: none;
   background: #C70101;
   color: #FFFFFF;
