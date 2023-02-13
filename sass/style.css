@@ -509,8 +509,15 @@
 .catalog-item__footer {
   margin-top: 17px;
   display: flex;
-  justify-content: center;
-  column-gap: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+.catalog-item__old-price {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #555555;
 }
 
 /*# sourceMappingURL=style.css.map */
