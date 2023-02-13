@@ -458,6 +458,10 @@
   transform: skewX(-25deg);
   cursor: pointer;
 }
+.catalog__tab:hover {
+  box-shadow: 10px 5px 5px #C70101;
+  border: none;
+}
 .catalog__tab div {
   transform: skewX(25deg);
 }

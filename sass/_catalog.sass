@@ -1,6 +1,5 @@
 .catalog
   padding-bottom: 100px
-
   &__tabs
     display: flex
     justify-content: center
@@ -8,7 +7,6 @@
     column-gap: 10px
     margin-top: 70px
     list-style-type: none
-
   &__tab
     width: 222px
     height: 52px
@@ -22,10 +20,11 @@
     color: #6B6B6B
     transform: skewX(-25deg)
     cursor: pointer
-
+    &:hover
+      box-shadow: 10px 5px 5px $button_color
+      border: none
     div
       transform: skewX(25deg)
-
     &_active
       border: none
       background: $button_color
