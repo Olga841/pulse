@@ -436,5 +436,13 @@
 .catalog {
   padding-bottom: 100px;
 }
+.catalog__tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 70px;
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=style.css.map */
