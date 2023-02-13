@@ -489,5 +489,13 @@
   text-align: center;
   color: #0D0D0D;
 }
+.catalog-item__descr {
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #0D0D0D;
+}
 
 /*# sourceMappingURL=style.css.map */
