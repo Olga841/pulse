@@ -497,6 +497,10 @@
   min-height: 352px;
   display: none;
 }
+.catalog-item__list {
+  width: 50%;
+  min-height: 352px;
+}
 .catalog-item__img {
   width: 140px;
   display: block;
