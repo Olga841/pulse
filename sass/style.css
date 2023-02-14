@@ -490,7 +490,7 @@
 .catalog-item__wrapper {
   display: flex;
   justify-content: space-between;
-  width: 200%;
+  width: calc(200% + 40px);
 }
 .catalog-item__content {
   width: 50%;
@@ -498,8 +498,18 @@
   display: none;
 }
 .catalog-item__list {
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
   width: 50%;
   min-height: 352px;
+  list-style: none;
+}
+.catalog-item__list-item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555555;
 }
 .catalog-item__img {
   width: 140px;

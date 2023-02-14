@@ -42,14 +42,23 @@
     &__wrapper
       display: flex
       justify-content: space-between
-      width: 200%
+      width: calc(200% + 40px)
     &__content
       width: 50%
       min-height: 352px
       display: none
     &__list
+      margin: 0
+      padding: 0
+      padding: 0 20px
       width: 50%
       min-height: 352px
+      list-style: none
+      &-item
+        font-weight: 300
+        font-size: 14px
+        line-height: 21px
+        color: #555555
     &__img
       width: 140px
       display: block
