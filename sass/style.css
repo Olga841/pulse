@@ -492,6 +492,11 @@
   justify-content: space-between;
   width: 200%;
 }
+.catalog-item__content {
+  width: 50%;
+  min-height: 352px;
+  display: none;
+}
 .catalog-item__img {
   width: 140px;
   display: block;
