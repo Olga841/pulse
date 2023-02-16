@@ -540,5 +540,9 @@
   display: flex;
   width: calc(200% + 40px);
 }
+.catalog-item__content {
+  width: 50%;
+  margin-right: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
