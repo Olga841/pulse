@@ -544,5 +544,9 @@
   width: 50%;
   margin-right: 20px;
 }
+.catalog-item__list {
+  width: 50%;
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
