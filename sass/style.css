@@ -476,9 +476,11 @@
   color: #FFFFFF;
 }
 .catalog__content {
+  margin-top: 57px;
   display: flex;
   justify-content: space-between;
-  column-gap: 40px;
+  flex-wrap: wrap;
+  row-gap: 20px;
 }
 .catalog-item {
   position: relative;
