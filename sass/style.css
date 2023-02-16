@@ -536,5 +536,9 @@
   line-height: 20px;
   color: #050505;
 }
+.catalog-item__wrapper {
+  display: flex;
+  width: calc(200% + 40px);
+}
 
 /*# sourceMappingURL=style.css.map */
