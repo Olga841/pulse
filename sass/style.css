@@ -477,6 +477,9 @@
 }
 .catalog__content {
   margin-top: 57px;
+  display: none;
+}
+.catalog__content_active {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
