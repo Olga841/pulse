@@ -520,6 +520,12 @@
   text-align: center;
   color: #C70101;
 }
+.catalog-item__back {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #C70101;
+}
 .catalog-item hr {
   margin-top: 17px;
 }
