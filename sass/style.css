@@ -563,6 +563,7 @@
   margin-right: 20px;
 }
 .catalog-item__list {
+  display: none;
   position: relative;
   width: 50%;
   padding-right: 20px;
@@ -573,6 +574,7 @@
   list-style-type: none;
 }
 .catalog-item__list_active {
+  display: block;
   transform: translateX(-100%);
   margin-left: 20px;
 }
