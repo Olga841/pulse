@@ -554,6 +554,7 @@
 }
 .catalog-item__content {
   width: 50%;
+  min-height: 357px;
   padding-right: 20px;
   transform: translateX(-100%);
   transition: 0.5s all;
