@@ -17,6 +17,14 @@ $(document).ready(function(){
             e.preventDefault();
             $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
             $('.catalog-item__link').eq(i).toggleClass('catalog-item__link_active');
-        })
-    })
+        });
+    });
+
+    $('.catalog-item__back').each(function(i){
+        $(this).on('click', function(e) {
+            e.preventDefault();
+            $('.catalog-item__link').eq(i).toggleClass('catalog-item__link_active');
+            $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
+        });
+    });
 });
