@@ -620,5 +620,11 @@
   line-height: 18px;
   color: #0D0D0D;
 }
+.reviews__descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #646464;
+}
 
 /*# sourceMappingURL=style.css.map */
