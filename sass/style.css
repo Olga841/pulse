@@ -614,5 +614,11 @@
   display: block;
   margin-right: 60px;
 }
+.reviews__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #0D0D0D;
+}
 
 /*# sourceMappingURL=style.css.map */
