@@ -606,5 +606,13 @@
   flex-direction: column;
   row-gap: 60px;
 }
+.reviews__item {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews__item img {
+  display: block;
+  margin-right: 60px;
+}
 
 /*# sourceMappingURL=style.css.map */
