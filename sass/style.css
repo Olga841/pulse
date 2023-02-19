@@ -636,4 +636,18 @@
   color: #0D0D0D;
 }
 
+.footer {
+  position: relative;
+}
+.footer__info {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: 460px;
+  margin: 0 auto;
+  background-color: #C70101;
+}
+
 /*# sourceMappingURL=style.css.map */
