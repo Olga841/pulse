@@ -668,5 +668,12 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+.footer__social {
+  display: flex;
+  justify-content: center;
+  column-gap: 27px;
+  margin-top: 36px;
+  margin-bottom: 56px;
+}
 
 /*# sourceMappingURL=style.css.map */
