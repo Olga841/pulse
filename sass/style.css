@@ -696,5 +696,12 @@
   width: 382px;
   padding: 25px 25px 40px 25px;
 }
+.modal__title {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #0D0D0D;
+}
 
 /*# sourceMappingURL=style.css.map */
