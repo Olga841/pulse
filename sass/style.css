@@ -703,5 +703,13 @@
   text-align: center;
   color: #0D0D0D;
 }
+.modal__subtitle {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #0D0D0D;
+}
 
 /*# sourceMappingURL=style.css.map */
