@@ -688,8 +688,8 @@
 .modal__wrapper {
   width: 442px;
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
+  align-items: flex-start;
 }
 .modal__window {
   background-color: #F2F2F2;
@@ -710,6 +710,13 @@
   line-height: 14px;
   text-align: center;
   color: #0D0D0D;
+}
+.modal__close {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 14px;
+  margin-left: 15px;
+  color: #C70101;
 }
 
 /*# sourceMappingURL=style.css.map */
