@@ -27,4 +27,6 @@ $(document).ready(function(){
             $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
         });
     });
+
+
 });
