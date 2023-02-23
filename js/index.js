@@ -29,4 +29,9 @@ $(document).ready(function(){
     });
 
 
+    $('[data-modal="consultation"]').on('click', function(e){
+        e.preventDefault();
+        $('#order, #thanks').fadeOut();
+        $('.overlay, #consultation').fadeIn();
+    })
 });
