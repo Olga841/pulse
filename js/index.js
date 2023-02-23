@@ -44,5 +44,10 @@ $(document).ready(function(){
     $('.modal__close').on('click', function(e){
         e.preventDefault();
         $('.overlay, #consultation, #order, #thanks').fadeOut('slow');
+    });
+
+    $('.button_submit').on('click', function (e) {
+        e.preventDefault();
+        $('.overlay, #consultation, #order').fadeOut('slow');
     })
 });
