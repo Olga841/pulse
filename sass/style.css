@@ -682,6 +682,7 @@
 }
 
 .overlay {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -691,9 +692,6 @@
   z-index: 5;
 }
 
-.modal {
-  display: none;
-}
 .modal__wrapper {
   position: absolute;
   left: 50%;
