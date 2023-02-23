@@ -41,5 +41,8 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn('slow');
     });
 
-
+    $('.modal__close').on('click', function(e){
+        e.preventDefault();
+        $('.overlay, #consultation, #order, #thanks').fadeOut('slow');
+    })
 });
