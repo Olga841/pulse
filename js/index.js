@@ -32,6 +32,14 @@ $(document).ready(function(){
     $('[data-modal="consultation"]').on('click', function(e){
         e.preventDefault();
         $('#order, #thanks').fadeOut();
-        $('.overlay, #consultation').fadeIn();
-    })
+        $('.overlay, #consultation').fadeIn('slow');
+    });
+
+    $('.button_catalogue').on('click', function(e){
+        e.preventDefault();
+        $('#consultation, #thanks').fadeOut();
+        $('.overlay, #order').fadeIn('slow');
+    });
+
+
 });
