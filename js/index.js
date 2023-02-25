@@ -48,6 +48,10 @@ $(document).ready(function(){
 
     $('.button_submit').on('click', function (e) {
         e.preventDefault();
-        $('.overlay, #consultation, #order').fadeOut('slow');
-    })
+        $('.overlay, #thanks').fadeIn();
+        $('#order, #consultation').fadeOut(50);
+
+    });
+
+
 });
