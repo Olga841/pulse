@@ -732,8 +732,11 @@
 }
 
 .upscroll img {
-  width: 25px;
-  height: 35px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
