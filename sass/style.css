@@ -160,6 +160,15 @@ html {
   text-align: center;
   font-size: 14px;
 }
+.benefits__icon_animation {
+  animation-name: heartbeats;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.benefits__icon_animation:hover {
+  animation-play-state: paused;
+}
 .benefits__icon img {
   display: block;
   margin: 0 auto;
