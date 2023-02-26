@@ -731,4 +731,9 @@
   cursor: pointer;
 }
 
+.upscroll img {
+  width: 25px;
+  height: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */
