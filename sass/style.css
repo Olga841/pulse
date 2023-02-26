@@ -746,4 +746,13 @@ html {
   height: auto;
 }
 
+@keyframes heartbeats {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
