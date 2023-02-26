@@ -731,10 +731,13 @@
   cursor: pointer;
 }
 
-.upscroll img {
+.upscroll {
+  display: none;
   position: fixed;
   bottom: 50px;
   right: 50px;
+}
+.upscroll img {
   width: 70px;
   height: auto;
 }
