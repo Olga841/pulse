@@ -91,5 +91,7 @@ $(document).ready(function(){
         }  else {
             $('.upscroll').fadeOut();
         }
-    })
+    });
+
+    new WOW().init();
 });
