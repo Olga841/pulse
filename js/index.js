@@ -83,4 +83,13 @@ $(document).ready(function(){
     validateForms('#consultation-form');
     validateForms('#consultation form');
     validateForms('#order form');
+
+
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 1600) {
+            $('.upscroll').fadeIn();
+        }  else {
+            $('.upscroll').fadeOut();
+        }
+    })
 });
