@@ -8,6 +8,10 @@
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .promo {
   min-height: 650px;
   padding: 21px 0 94px 0;
